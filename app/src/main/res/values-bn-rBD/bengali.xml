@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Speech to Text</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="dictionary_base_url" translatable="false">https://api.dictionaryapi.dev/api/v2/</string>
+    <string name="pressMic">বলার জন্য মাইকে ট্যাপ করুন?</string>
+    <string name="english" translatable="false">English</string>
+    <string name="ocr">ওসিআর</string>
+    <string name="ocr_text">ওসিআর</string>
+    <string name="languages">ভাষাসমূহ</string>
+    <string name="favourite">প্রিয়</string>
+    <string name="history">ইতিহাস</string>
+    <string name="rate_us">আমাদের রেট দিন</string>
+    <string name="share">শেয়ার করুন</string>
+    <string name="exit">প্রস্থান</string>
+    <string name="speech_to_text">স্পিচ টু টেক্সট</string>
+    <string name="stt">এসটিটি</string>
+    <string name="translate">অনুবাদ</string>
+    <string name="dictionary">অভিধান</string>
+    <string name="type_your_text_in_here">এখানে আপনার টেক্সট টাইপ করুন...</string>
+    <string name="enter_text_here">এখানে টেক্সট প্রবেশ করান</string>
+    <string name="gallery">গ্যালারি</string>
+    <string name="flash_on">ফ্ল্যাশ চালু</string>
+    <string name="china">চীন</string>
+    <string name="search_with_camera">ক্যামেরা দিয়ে খুঁজুন</string>
+    <string name="images">ছবিগুলি</string>
+    <string name="text_scan">অনুবাদ স্ক্রিনে পাঠান</string>
+    <string name="search">অনুসন্ধান করুন...</string>
+    <string name="view_all">সব দেখুন</string>
+    <string name="toolbar_title">শিরোনাম</string>
+    <string name="text_exit_app">আপনি কি নিশ্চিত যে আপনি প্রস্থান করতে চান?</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="noun">বিশেষ্য</string>
+    <string name="definition_text">সংজ্ঞা</string>
+    <string name="def_text_explain" translatable="false">“হ্যালো!” বা সমতুল্য অভিবাদন</string>
+    <string name="search_hint">অনুসন্ধান করুন</string>
+    <string name="get_started">শুরু করুন</string>
+    <string name="draw_text">আঁকুন</string>
+    <string name="draw_suggestion" translatable="false">abc</string>
+    <string name="urdu">উর্দু</string>
+    <string name="input_text">ইনপুট টেক্সট</string>
+    <string name="translated_text">অনুবাদিত টেক্সট</string>
+    <string name="definition">সংজ্ঞা</string>
+    <string name="synonyms">সমার্থক :</string>
+    <string name="antonyms">প্রতিশব্দ :</string>
+    <string name="done">সম্পন্ন</string>
+    <string name="empty_favorite">খালি প্রিয়</string>
+    <string name="no_favorite_history">আপনার ইতিহাসে কোনও প্রিয় নেই</string>
+    <string name="empty_history">খালি ইতিহাস</string>
+    <string name="rate_us_title">আপনার মতামত আমাদের জন্য গুরুত্বপূর্ণ</string>
+    <string name="rate_us_btn_text">আমাদের রেট দিন</string>
+    <string name="not_now_btn_text">এখন নয়</string>
+    <string name="favorite_title">প্রিয়</string>
+    <string name="no_history">আপনার কোন ইতিহাস নেই</string>
+</resources>

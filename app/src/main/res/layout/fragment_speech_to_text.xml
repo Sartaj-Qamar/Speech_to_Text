@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_bg"
+    android:paddingBottom="@dimen/_20sdp"
+    tools:context=".Fragments.SpeechToTextFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/countryLanguageSelection"
+        android:layout_width="@dimen/country_language_width"
+        android:layout_height="@dimen/country_language_height"
+        android:layout_marginVertical="@dimen/margin_medium"
+        android:background="@drawable/edit_button_bg"
+        android:layout_marginHorizontal="@dimen/margin_small"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:ellipsize="end"
+            android:fontFamily="@font/noto_sami_bold"
+            android:maxLines="1"
+            android:text="@string/english"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/downArrow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/downArrow"
+            android:layout_width="12dp"
+            android:layout_height="15dp"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:src="@drawable/icon_pop_up"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/displayTextView"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/display_view_height"
+        android:layout_marginHorizontal="@dimen/margin_small"
+        android:layout_marginVertical="@dimen/margin_small"
+        android:background="@drawable/edit_layout_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/countryLanguageSelection">
+
+        <TextView
+            android:id="@+id/micText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_medium"
+            android:layout_marginVertical="@dimen/margin_large"
+            android:fontFamily="@font/noto_regular"
+            android:hint="@string/pressMic"
+            android:textColor="@color/text_dark_black"
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/copyText"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginHorizontal="@dimen/margin_small"
+            android:src="@drawable/copy_icon"
+            app:layout_constraintBottom_toBottomOf="@id/deleteText"
+            app:layout_constraintEnd_toStartOf="@id/deleteText"
+            app:layout_constraintTop_toTopOf="@id/deleteText" />
+
+        <ImageView
+            android:id="@+id/deleteText"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginHorizontal="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:src="@drawable/delete_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/mic"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/icon_mic"
+        android:background="@drawable/bottom_shadow"
+        android:elevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

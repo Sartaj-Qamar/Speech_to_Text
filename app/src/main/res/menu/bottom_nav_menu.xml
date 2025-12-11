@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="STT"
+        android:id="@+id/speechToTextFragment"
+        android:icon="@drawable/icon_sst" />
+
+    <item
+        android:title="Translate"
+        android:id="@+id/textToTranslateFragment"
+        android:icon="@drawable/icon_tranlate" />
+
+    <item
+        android:title="Dictionary"
+        android:id="@+id/dictionaryFragment"
+        android:icon="@drawable/icon_dictionary" />
+
+    <item
+        android:title="OCR"
+        android:id="@+id/OCRFragment"
+        android:icon="@drawable/icon_ocr" />
+</menu>

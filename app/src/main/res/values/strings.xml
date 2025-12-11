@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name" translatable="false">Speech to Text</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="dictionary_base_url" translatable="false">https://api.dictionaryapi.dev/api/v2/</string>
+    <string name="pressMic">Tap on mic to speak?</string>
+    <string name="english" translatable="false">English</string>
+    <string name="ocr">OCR</string>
+    <string name="ocr_text">OCR</string>
+    <string name="languages">Languages</string>
+    <string name="favourite">Favourite</string>
+    <string name="history">History</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="exit">Exit</string>
+    <string name="speech_to_text">Speech to Text</string>
+    <string name="stt">STT</string>
+    <string name="translate">Translate</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="type_your_text_in_here">Type your Text in Here...</string>
+    <string name="enter_text_here">Enter Text Here</string>
+    <string name="gallery">Gallery</string>
+    <string name="flash_on">Flash ON</string>
+    <string name="china">China</string>
+    <string name="search_with_camera">Search with Camera</string>
+    <string name="images">Images</string>
+    <string name="text_scan">Send to translation Screen</string>
+    <string name="search">search...</string>
+    <string name="view_all">View all</string>
+    <string name="toolbar_title">Title</string>
+    <string name="text_exit_app">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="noun">Noun</string>
+    <string name="definition_text">Definition</string>
+    <string name="def_text_explain" translatable="false">“Hello!” or an equivalent greeting</string>
+    <string name="search_hint">search</string>
+    <string name="get_started">Get Started</string>
+    <string name="draw_text">draw</string>
+    <string name="draw_suggestion" translatable="false">abc</string>
+    <string name="urdu">Urdu</string>
+    <string name="input_text">Input Text</string>
+    <string name="translated_text">Translated Text</string>
+    <string name="definition">Definition</string>
+    <string name="synonyms">Synonyms :</string>
+    <string name="antonyms">Antonyms :</string>
+    <string name="done">Done</string>
+    <string name="empty_favorite">Empty Favorite</string>
+    <string name="no_favorite_history">You have no favorite in history</string>
+    <string name="empty_history">Empty History</string>
+    <string name="rate_us_title">Your opinion matter to us</string>
+    <string name="rate_us_btn_text">Rate Us</string>
+    <string name="not_now_btn_text">Not Now</string>
+    <string name="favorite_title">Favorite</string>
+    <string name="no_history">You have no history</string>
+    <string name="flash_off">Flash OFF</string>
+    <string name="onboarding_title_1">Speak, Convert, and Save Effortlessly</string>
+    <string name="onboarding_desc_1" translatable="false">Transform spoken words into accurate, editable text in real-time for notes, documents, or messages, anytime, anywhere.</string>
+    <string name="onboarding_title_2">Translate Seamlessly Across Languages</string>
+    <string name="onboarding_desc_2" translatable="false">Effortlessly translate your text into multiple languages with a single tap, breaking language barriers instantly.</string>
+    <string name="onboarding_title_3">Scan, Recognize, and Simplify Tasks</string>
+    <string name="onboarding_desc_3" translatable="false">Convert hand-drawn or image-based text into readable, editable formats with precision using our powerful AI tools.</string>
+    <string name="continue_text" translatable="false">Continue</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    android:background="@color/app_bg">
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="26dp"
+        android:layout_height="36dp"
+        android:src="@drawable/menu"
+        android:layout_marginStart="10dp"
+        android:layout_marginVertical="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/bg_dark_black" />
+
+    <TextView
+        android:id="@+id/speechText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/speech_to_text"
+        android:textColor="@color/bg_dark_black"
+        android:textSize="@dimen/_14ssp"
+        android:visibility="visible"
+        android:fontFamily="@font/noto_sami_bold"
+        app:layout_constraintStart_toEndOf="@id/menu"
+        app:layout_constraintTop_toTopOf="@id/menu"
+        app:layout_constraintEnd_toStartOf="@id/premium"
+        app:layout_constraintBottom_toBottomOf="@id/menu" />
+
+    <ImageView
+        android:id="@+id/premium"
+        android:layout_width="28dp"
+        android:layout_height="25dp"
+        android:src="@drawable/premium_icon"
+        app:layout_constraintTop_toTopOf="@id/speechText"
+        app:layout_constraintBottom_toBottomOf="@id/speechText"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="10dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

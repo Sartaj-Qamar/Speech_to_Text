@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.codetech.speechtotext.Fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_onboardingFragment"
+            app:destination="@id/onboardingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/speechToTextFragment"
+        android:name="com.codetech.speechtotext.Fragments.SpeechToTextFragment"
+        android:label="Speech to Text"
+        tools:layout="@layout/fragment_speech_to_text" />
+    <fragment
+        android:id="@+id/textToTranslateFragment"
+        android:name="com.codetech.speechtotext.Fragments.TextToTranslateFragment"
+        android:label="Translate"
+        tools:layout="@layout/fragment_text_to_translate_">
+        <action
+            android:id="@+id/action_TextToTranslateFragment_to_textDrawTranslateFragment"
+            app:destination="@id/textDrawTranslateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/speechToTranslateFragment"
+        android:name="com.codetech.speechtotext.Fragments.SpeechToTranslateFragment"
+        android:label="Speech to Translate"
+        tools:layout="@layout/fragment_speech_to_translate" />
+    <fragment
+        android:id="@+id/OCRFragment"
+        android:name="com.codetech.speechtotext.Fragments.OCRFragment"
+        android:label="fragment_o_c_r"
+        tools:layout="@layout/fragment_o_c_r">
+        <action
+            android:id="@+id/action_OCRFragment_to_photoFragment"
+            app:destination="@id/photoFragment" />
+        <action
+            android:id="@+id/action_OCRFragment_to_scanOCRFragment"
+            app:destination="@id/scanOCRFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.codetech.speechtotext.Fragments.AllPhotoFragment"
+        android:label="fragment_photoFragment"
+        tools:layout="@layout/fragment_all__photo_">
+        <action
+            android:id="@+id/action_photoFragment_to_scanOCRFragment"
+            app:destination="@id/scanOCRFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scanOCRFragment"
+        android:name="com.codetech.speechtotext.Fragments.ScanOCRFragment"
+        android:label="fragment_scan_o_c_r"
+        tools:layout="@layout/fragment_scan_o_c_r">
+        <action
+            android:id="@+id/action_scanOCRFragment_to_OCRToTextTranslateFragment"
+            app:destination="@id/OCRToTextTranslateFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dictionaryFragment"
+        android:name="com.codetech.speechtotext.Fragments.DictionaryFragment"
+        android:label="Dictionary"
+        tools:layout="@layout/fragment_dictionary" />
+    <fragment
+        android:id="@+id/dictionaryFragment2"
+        android:name="com.codetech.speechtotext.Fragments.DictionaryFragment"
+        android:label="fragment_dictionary2"
+        tools:layout="@layout/fragment_dictionary2" />
+    <fragment
+        android:id="@+id/drawableFragment"
+        android:name="com.codetech.speechtotext.Fragments.DrawableFragment"
+        android:label="fragment_drawable"
+        tools:layout="@layout/fragment_drawable" />
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.codetech.speechtotext.Fragments.FavouriteFragment"
+        android:label="fragment_favourite"
+        tools:layout="@layout/fragment_favourite">
+        <action
+            android:id="@+id/action_favouriteFragment_to_splashFragment"
+            app:destination="@id/splashFragment" />
+        <action
+            android:id="@+id/action_favouriteFragment_to_speechToTextFragment"
+            app:destination="@id/speechToTextFragment" />
+        <action
+            android:id="@+id/action_favouriteFragment_to_TextToTranslateFragment"
+            app:destination="@id/textToTranslateFragment" />
+        <action
+            android:id="@+id/action_favouriteFragment_to_dictionaryFragment"
+            app:destination="@id/dictionaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/textToTranslateDrawFragment"
+        android:name="com.codetech.speechtotext.Fragments.TextToTranslateDrawFragment"
+        android:label="fragment_text_to_translate_draw"
+        tools:layout="@layout/fragment_text_to_translate_draw" />
+    <fragment
+        android:id="@+id/speechToTextResponseFragment"
+        android:name="com.codetech.speechtotext.Fragments.SpeechToTextResponseFragment"
+        android:label="fragment_speech_to_text_response"
+        tools:layout="@layout/fragment_speech_to_text_response" />
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.codetech.speechtotext.Fragments.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language">
+        <action
+            android:id="@+id/action_languageFragment_to_OCRFragment"
+            app:destination="@id/OCRFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.codetech.speechtotext.testFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/OCRToTextTranslateFragment"
+        android:name="com.codetech.speechtotext.Fragments.OCRToTextTranslateFragment"
+        android:label="fragment_o_c_r_to_text_translate"
+        tools:layout="@layout/fragment_o_c_r_to_text_translate" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.codetech.speechtotext.Fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_historyFragment_to_splashFragment"
+            app:destination="@id/splashFragment" />
+        <action
+            android:id="@+id/action_historyFragment_to_splashFragment2"
+            app:destination="@id/splashFragment" />
+        <action
+            android:id="@+id/action_historyFragment_to_speechToTextFragment"
+            app:destination="@id/speechToTextFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rateUs"
+        android:name="com.codetech.speechtotext.Fragments.RateUs"
+        android:label="fragment_rate_us"
+        tools:layout="@layout/fragment_rate_us" />
+    <fragment
+        android:id="@+id/textDrawTranslateFragment"
+        android:name="com.codetech.speechtotext.Fragments.TextDrawTranslateFragment"
+        android:label="fragment_text_draw_translate"
+        tools:layout="@layout/fragment_text_draw_translate">
+        <argument
+            android:name="clickedElement"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.codetech.speechtotext.Fragments.OnboardingFragment"
+        android:label="OnboardingFragment" />
+    <fragment
+        android:id="@+id/premiumFragment"
+        android:name="com.codetech.speechtotext.Fragments.PremiumFragment"
+        android:label="fragment_premium"
+        tools:layout="@layout/fragment_premium" />
+
+
+</navigation>

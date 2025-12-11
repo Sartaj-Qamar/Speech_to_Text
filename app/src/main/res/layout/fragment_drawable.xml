@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/app_bg"
+    android:id="@+id/drawale_layout"
+    tools:context=".Fragments.DrawableFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/bg_textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/speech_to_text"
+        android:fontFamily="@font/noto_sami_bold"
+        android:textSize="@dimen/_14ssp"
+        android:gravity="center"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/edit_text_bg" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/language_layout"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@drawable/drawable_bg"
+        android:layout_marginVertical="@dimen/_15sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/bg_textView"
+        app:layout_constraintStart_toStartOf="@id/bg_textView"
+        app:layout_constraintEnd_toEndOf="@id/bg_textView">
+
+        <TextView
+            android:id="@+id/text_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/languages"
+            android:textColor="@color/black"
+            android:fontFamily="@font/noto_regular"
+            android:textSize="@dimen/_12ssp"
+            android:drawableStart="@drawable/ic_language"
+            android:drawablePadding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fav_layout"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@drawable/drawable_bg"
+        android:layout_marginVertical="@dimen/_15sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/language_layout"
+        app:layout_constraintStart_toStartOf="@id/language_layout"
+        app:layout_constraintEnd_toEndOf="@id/language_layout">
+
+        <TextView
+            android:id="@+id/fav_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favourite"
+            android:textColor="@color/black"
+            android:fontFamily="@font/noto_regular"
+            android:textSize="@dimen/_12ssp"
+            android:drawableStart="@drawable/ic_fav"
+            android:drawablePadding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/history_layout"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@drawable/drawable_bg"
+        android:layout_marginVertical="@dimen/_15sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/fav_layout"
+        app:layout_constraintStart_toStartOf="@id/fav_layout"
+        app:layout_constraintEnd_toEndOf="@id/fav_layout">
+
+        <TextView
+            android:id="@+id/history_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/history"
+            android:textColor="@color/black"
+            android:fontFamily="@font/noto_regular"
+            android:textSize="@dimen/_12ssp"
+            android:drawableStart="@drawable/ic_history"
+            android:drawablePadding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rateUs_layout"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@drawable/drawable_bg"
+        android:layout_marginVertical="@dimen/_15sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/history_layout"
+        app:layout_constraintBottom_toTopOf="@id/share_layout"
+        app:layout_constraintStart_toStartOf="@id/share_layout"
+        app:layout_constraintEnd_toEndOf="@id/share_layout">
+
+        <TextView
+            android:id="@+id/rate_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rate_us"
+            android:textColor="@color/black"
+            android:fontFamily="@font/noto_regular"
+            android:textSize="@dimen/_12ssp"
+            android:drawableStart="@drawable/ic_rate"
+            android:drawablePadding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/share_layout"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@drawable/drawable_bg"
+        android:layout_marginVertical="@dimen/_15sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        app:layout_constraintBottom_toTopOf="@id/exit_layout"
+        app:layout_constraintStart_toStartOf="@id/exit_layout"
+        app:layout_constraintEnd_toEndOf="@id/exit_layout">
+
+        <TextView
+            android:id="@+id/share_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+            android:fontFamily="@font/noto_regular"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/ic_share"
+            android:drawablePadding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/exit_layout"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@drawable/drawable_bg"
+        android:layout_marginVertical="@dimen/_15sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/fav_layout"
+        app:layout_constraintEnd_toEndOf="@id/fav_layout">
+
+        <TextView
+            android:id="@+id/exit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"
+            android:fontFamily="@font/noto_regular"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/ic_exit"
+            android:drawablePadding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

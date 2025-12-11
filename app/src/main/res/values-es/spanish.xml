@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pressMic">Toca el micrófono para hablar</string>
+    <string name="ocr">OCR</string>
+    <string name="ocr_text">OCR</string>
+    <string name="languages">Idiomas</string>
+    <string name="favourite">Favoritos</string>
+    <string name="history">Historial</string>
+    <string name="rate_us">Califícanos</string>
+    <string name="share">Share</string>
+    <string name="exit">Exit</string>
+    <string name="speech_to_text">Voz a texto</string>
+    <string name="stt">STT</string>
+    <string name="translate">Traducir</string>
+    <string name="dictionary">Diccionario</string>
+    <string name="type_your_text_in_here">Escribe tu texto aquí...</string>
+    <string name="enter_text_here">Ingresa texto aquí</string>
+    <string name="gallery">Galería</string>
+    <string name="flash_on">Flash ENCENDIDO</string>
+    <string name="china">China</string>
+    <string name="search_with_camera">Buscar con cámara</string>
+    <string name="images">Imágenes</string>
+    <string name="text_scan">Enviar a pantalla de traducción</string>
+    <string name="search">Buscar...</string>
+    <string name="view_all">Ver todo</string>
+    <string name="toolbar_title">Título</string>
+    <string name="text_exit_app">¿Estás seguro de que quieres salir?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="noun">Sustantivo</string>
+    <string name="definition_text">Definición</string>
+    <string name="search_hint">Buscar</string>
+    <string name="get_started">Comenzar</string>
+    <string name="draw_text">Dibujar</string>
+    <string name="urdu">Urdu</string>
+    <string name="input_text">Texto de entrada</string>
+    <string name="translated_text">Texto traducido</string>
+    <string name="definition">Definición</string>
+    <string name="synonyms">Sinónimos:</string>
+    <string name="antonyms">Antónimos:</string>
+    <string name="done">Listo</string>
+    <string name="empty_favorite">Favoritos vacíos</string>
+    <string name="no_favorite_history">No tienes favoritos en el historial</string>
+</resources> 

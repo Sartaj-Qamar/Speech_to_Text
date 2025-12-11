@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PopupWindowAnimationFromTop">
+        <item name="android:windowEnterAnimation">@anim/slide_in_top</item>
+<!--        <item name="android:windowExitAnimation">@anim/slide_out_top</item>-->
+    </style>
+
+    <style name="PopupWindowAnimationFromBottom">
+                <item name="android:windowExitAnimation">@anim/slide_out_top</item>
+
+    </style>
+
+    <style name="CustomRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressTint">#FFC941</item> <!-- Color for filled stars -->
+        <item name="android:progressBackgroundTint">#D9D9D9</item> <!-- Color for empty stars (optional) -->
+    </style>
+
+
+
+
+</resources>

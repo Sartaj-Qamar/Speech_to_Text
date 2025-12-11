@@ -1,0 +1,49 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/language_layout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="@+id/share_text"
+    app:layout_constraintTop_toBottomOf="@id/share_text">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/lanImage"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:round="@dimen/_200sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/flag_uk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/langName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:fontFamily="@font/noto_regular"
+        android:gravity="center"
+        android:text="Language"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintBottom_toBottomOf="@id/lanImage"
+        app:layout_constraintTop_toTopOf="@id/lanImage"
+        app:layout_constraintStart_toEndOf="@id/lanImage" />
+
+    <ImageView
+        android:id="@+id/radioButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:src="@drawable/checked"
+        app:buttonTint="@color/radio_button_color_selector"
+        app:layout_constraintBottom_toBottomOf="@id/langName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/langName" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

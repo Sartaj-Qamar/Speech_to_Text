@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Speech to Text</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="dictionary_base_url" translatable="false">https://api.dictionaryapi.dev/api/v2/</string>
+    <string name="pressMic">माइक पर टैप करें बोलने के लिए?</string>
+    <string name="english" translatable="false">English</string>
+    <string name="ocr">ओसीआर</string>
+    <string name="ocr_text">ओसीआर</string>
+    <string name="languages">भाषाएँ</string>
+    <string name="favourite">पसंदीदा</string>
+    <string name="history">इतिहास</string>
+    <string name="rate_us">हमें रेट करें</string>
+    <string name="share">साझा करें</string>
+    <string name="exit">बाहर जाएं</string>
+    <string name="speech_to_text">स्पीच टू टेक्स्ट</string>
+    <string name="stt">एसटीटी</string>
+    <string name="translate">अनुवाद करें</string>
+    <string name="dictionary">शब्दकोश</string>
+    <string name="type_your_text_in_here">यहाँ अपना टेक्स्ट लिखें...</string>
+    <string name="enter_text_here">यहाँ टेक्स्ट दर्ज करें</string>
+    <string name="gallery">गैलरी</string>
+    <string name="flash_on">फ्लैश ऑन</string>
+    <string name="china">चीन</string>
+    <string name="search_with_camera">कैमरे के साथ खोजें</string>
+    <string name="images">चित्र</string>
+    <string name="text_scan">अनुवाद स्क्रीन पर भेजें</string>
+    <string name="search">खोजें...</string>
+    <string name="view_all">सभी देखें</string>
+    <string name="toolbar_title">शीर्षक</string>
+    <string name="text_exit_app">क्या आप वाकई बाहर जाना चाहते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="noun">संज्ञा</string>
+    <string name="definition_text">परिभाषा</string>
+    <string name="def_text_explain" translatable="false">“नमस्ते!” या समकक्ष अभिवादन</string>
+    <string name="search_hint">खोजें</string>
+    <string name="get_started">शुरू करें</string>
+    <string name="draw_text">खींचें</string>
+    <string name="draw_suggestion" translatable="false">abc</string>
+    <string name="urdu">उर्दू</string>
+    <string name="input_text">इनपुट टेक्स्ट</string>
+    <string name="translated_text">अनुवादित टेक्स्ट</string>
+    <string name="definition">परिभाषा</string>
+    <string name="synonyms">समानार्थक :</string>
+    <string name="antonyms">विलोम :</string>
+    <string name="done">पूर्ण</string>
+    <string name="empty_favorite">खाली पसंदीदा</string>
+    <string name="no_favorite_history">इतिहास में आपके पास कोई पसंदीदा नहीं है</string>
+    <string name="empty_history">खाली इतिहास</string>
+    <string name="rate_us_title">आपकी राय हमारे लिए महत्वपूर्ण है</string>
+    <string name="rate_us_btn_text">हमें रेट करें</string>
+    <string name="not_now_btn_text">अभी नहीं</string>
+    <string name="favorite_title">पसंदीदा</string>
+    <string name="no_history">आपके पास कोई इतिहास नहीं है</string>
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/layout_bg"
+    android:paddingBottom="@dimen/_20sdp"
+    tools:context=".Fragments.SpeechToTranslateFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+        <TextView
+            android:id="@+id/editTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginVertical="@dimen/_20sdp"
+            android:gravity="clip_horizontal"
+            android:hint="@string/enter_text_here"
+            android:background="@null"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:fontFamily="@font/noto_regular"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+           />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/translate_text_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_10sdp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/editTextView"
+        app:layout_constraintEnd_toEndOf="@id/editTextView"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/editTextIcon"
+        android:layout_width="@dimen/width_edit_icon"
+        android:layout_height="@dimen/height_edit_icon"
+        android:src="@drawable/edit_text_icon"
+       app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_20sdp"
+        app:tint="@color/black" />
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/languageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        app:layout_constraintBottom_toTopOf="@id/mic"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/languageSelection1"
+            android:layout_width="@dimen/country_language_width"
+            android:layout_height="@dimen/country_language_height"
+            android:layout_marginVertical="@dimen/margin_medium"
+            android:background="@drawable/edit_button_bg1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+          >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:ellipsize="end"
+                android:fontFamily="@font/noto_sami_bold"
+                android:maxLines="1"
+                android:text="English"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/downArrow"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/downArrow"
+                android:layout_width="12dp"
+                android:layout_height="15dp"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:src="@drawable/icon_pop_up"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/black" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <ImageView
+            android:id="@+id/iconNext"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:src="@drawable/rotate_icon"
+            app:layout_constraintBottom_toBottomOf="@id/languageSelection1"
+            app:layout_constraintEnd_toStartOf="@id/languageSelection2"
+            app:layout_constraintStart_toEndOf="@id/languageSelection1"
+            app:layout_constraintTop_toTopOf="@id/languageSelection1"
+            app:tint="@color/black" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/languageSelection2"
+            android:layout_width="@dimen/country_language_width"
+            android:layout_height="@dimen/country_language_height"
+            android:background="@drawable/edit_button_bg1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/iconNext"
+            app:layout_constraintBottom_toBottomOf="@id/iconNext"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:ellipsize="end"
+                android:fontFamily="@font/noto_sami_bold"
+                android:maxLines="1"
+                android:text="China"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/downArrow2"
+                android:layout_width="12dp"
+                android:layout_height="15dp"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:src="@drawable/icon_pop_up"
+                app:layout_constraintBottom_toBottomOf="@id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textView2"
+                app:tint="@color/black" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <ImageView
+        android:id="@+id/mic"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/icon_mic"
+        android:background="@drawable/bottom_shadow"
+        android:elevation="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  translatable="false" name="app_name">Fala para Texto</string>
+    <string name="hello_blank_fragment" translatable="false">Olá fragmento em branco</string>
+    <string name="dictionary_base_url" translatable="false">https://api.dictionaryapi.dev/api/v2/</string>
+    <string name="pressMic">Toque no microfone para falar</string>
+    <string name="english" translatable="false">Inglês</string>
+    <string name="ocr">OCR</string>
+    <string name="ocr_text">OCR</string>
+    <string name="languages">Idiomas</string>
+    <string name="favourite">Favorito</string>
+    <string name="history">Histórico</string>
+    <string name="rate_us">Avalie-nos</string>
+    <string name="share">Compartilhar</string>
+    <string name="exit">Sair</string>
+    <string name="speech_to_text">Fala para Texto</string>
+    <string name="stt">FPT</string>
+    <string name="translate">Traduzir</string>
+    <string name="dictionary">Dicionário</string>
+    <string name="type_your_text_in_here">Digite seu texto aqui...</string>
+    <string name="enter_text_here">Digite o texto aqui</string>
+    <string name="gallery">Galeria</string>
+    <string name="flash_on">Flash LIGADO</string>
+    <string name="china">China</string>
+    <string name="search_with_camera">Pesquisar com Câmera</string>
+    <string name="images">Imagens</string>
+    <string name="text_scan">Enviar para a tela de tradução</string>
+    <string name="search">pesquisar...</string>
+    <string name="view_all">Ver tudo</string>
+    <string name="toolbar_title">Título</string>
+    <string name="text_exit_app">Tem certeza de que deseja sair?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="noun">Substantivo</string>
+    <string name="definition_text">Definição</string>
+    <string name="def_text_explain" translatable="false">“Olá!” ou uma saudação equivalente</string>
+    <string name="search_hint">pesquisar</string>
+    <string name="get_started">Começar</string>
+    <string name="draw_text">desenhar</string>
+    <string name="draw_suggestion" translatable="false">abc</string>
+    <string name="urdu">Urdu</string>
+    <string name="input_text">Texto de Entrada</string>
+    <string name="translated_text">Texto Traduzido</string>
+    <string name="definition">Definição</string>
+    <string name="synonyms">Sinônimos :</string>
+    <string name="antonyms">Antônimos :</string>
+    <string name="done">Feito</string>
+    <string name="empty_favorite">Favorito vazio</string>
+    <string name="no_favorite_history">Você não tem favoritos no histórico</string>
+    <string name="empty_history">Histórico vazio</string>
+    <string name="rate_us_title">Sua opinião é importante para nós</string>
+    <string name="rate_us_btn_text">Avalie-nos</string>
+    <string name="not_now_btn_text">Agora não</string>
+    <string name="favorite_title">Favoritos</string>
+</resources>

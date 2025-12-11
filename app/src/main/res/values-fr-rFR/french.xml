@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  translatable="false" name="app_name">Parole en Texte</string>
+    <string name="hello_blank_fragment" translatable="false">Bonjour fragment vide</string>
+    <string name="dictionary_base_url" translatable="false">https://api.dictionaryapi.dev/api/v2/</string>
+    <string name="pressMic">Appuyez sur le micro pour parler</string>
+    <string name="english" translatable="false">Anglais</string>
+    <string name="ocr">OCR</string>
+    <string name="ocr_text">OCR</string>
+    <string name="languages">Langues</string>
+    <string name="favourite">Favoris</string>
+    <string name="history">Historique</string>
+    <string name="rate_us">Évaluez-nous</string>
+    <string name="share">Partager</string>
+    <string name="exit">Quitter</string>
+    <string name="speech_to_text">Parole en Texte</string>
+    <string name="stt">PTT</string>
+    <string name="translate">Traduire</string>
+    <string name="dictionary">Dictionnaire</string>
+    <string name="type_your_text_in_here">Tapez votre texte ici...</string>
+    <string name="enter_text_here">Entrez le texte ici</string>
+    <string name="gallery">Galerie</string>
+    <string name="flash_on">Flash ACTIVÉ</string>
+    <string name="china">Chine</string>
+    <string name="search_with_camera">Rechercher avec l\'appareil photo</string>
+    <string name="images">Images</string>
+    <string name="text_scan">Écran Envoyer à la traduction</string>
+    <string name="search">chercher...</string>
+    <string name="view_all">Voir tout</string>
+    <string name="toolbar_title">Titre</string>
+    <string name="text_exit_app">Êtes-vous sûr de vouloir quitter ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="noun">Nom</string>
+    <string name="definition_text">Définition</string>
+    <string name="def_text_explain" translatable="false">“Bonjour!” ou une salutation équivalente</string>
+    <string name="search_hint">chercher</string>
+    <string name="get_started">Commencer</string>
+    <string name="draw_text">dessiner</string>
+    <string name="draw_suggestion" translatable="false">abc</string>
+    <string name="urdu">Ourdou</string>
+    <string name="input_text">Texte de saisie</string>
+    <string name="translated_text">Texte traduit</string>
+    <string name="definition">Définition</string>
+    <string name="synonyms">Synonymes :</string>
+    <string name="antonyms">Antonymes :</string>
+    <string name="done">Fait</string>
+    <string name="empty_favorite">Favoris vides</string>
+    <string name="no_favorite_history">Tu n\'as pas de favori dans l\'histoire</string>
+    <string name="empty_history">Historique vide</string>
+    <string name="rate_us_title">Votre opinion compte pour nous</string>
+    <string name="rate_us_btn_text">Évaluez-nous</string>
+    <string name="not_now_btn_text">Pas maintenant</string>
+    <string name="favorite_title">Favoris</string>
+    <string name="no_history">Vous n\'avez pas d\'antécédents</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Speech to Text</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="dictionary_base_url" translatable="false">https://api.dictionaryapi.dev/api/v2/</string>
+    <string name="pressMic">話すにはマイクをタップしてください？</string>
+    <string name="english" translatable="false">English</string>
+    <string name="ocr">OCR</string>
+    <string name="ocr_text">OCR</string>
+    <string name="languages">言語</string>
+    <string name="favourite">お気に入り</string>
+    <string name="history">履歴</string>
+    <string name="rate_us">評価する</string>
+    <string name="share">共有</string>
+    <string name="exit">終了</string>
+    <string name="speech_to_text">音声からテキストへ</string>
+    <string name="stt">音声からテキストへ</string>
+    <string name="translate">翻訳</string>
+    <string name="dictionary">辞書</string>
+    <string name="type_your_text_in_here">ここにテキストを入力してください...</string>
+    <string name="enter_text_here">ここにテキストを入力</string>
+    <string name="gallery">ギャラリー</string>
+    <string name="flash_on">フラッシュオン</string>
+    <string name="china">中国</string>
+    <string name="search_with_camera">カメラで検索</string>
+    <string name="images">画像</string>
+    <string name="text_scan">翻訳画面に送信</string>
+    <string name="search">検索...</string>
+    <string name="view_all">すべて表示</string>
+    <string name="toolbar_title">タイトル</string>
+    <string name="text_exit_app">本当に終了しますか？</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="noun">名詞</string>
+    <string name="definition_text">定義</string>
+    <string name="def_text_explain" translatable="false">“こんにちは！”または同等の挨拶</string>
+    <string name="search_hint">検索</string>
+    <string name="get_started">始める</string>
+    <string name="draw_text">描く</string>
+    <string name="draw_suggestion" translatable="false">abc</string>
+    <string name="urdu">ウルドゥー語</string>
+    <string name="input_text">入力テキスト</string>
+    <string name="translated_text">翻訳されたテキスト</string>
+    <string name="definition">定義</string>
+    <string name="synonyms">同義語 :</string>
+    <string name="antonyms">反意語 :</string>
+    <string name="done">完了</string>
+    <string name="empty_favorite">お気に入りは空です</string>
+    <string name="no_favorite_history">履歴にお気に入りはありません</string>
+    <string name="empty_history">履歴は空です</string>
+    <string name="rate_us_title">あなたの意見は私たちにとって重要です</string>
+    <string name="rate_us_btn_text">評価する</string>
+    <string name="not_now_btn_text">今はしない</string>
+    <string name="favorite_title">お気に入り</string>
+    <string name="no_history">履歴がありません</string>
+</resources>

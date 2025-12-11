@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="d_white">#929292</color>
+    <color name="transparent">#00000000</color>
+    <color name="icon_nav2">#FFFEFE</color>
+    <color name="app_bg">#F5F5F7</color>
+    <color name="bg_primary">#217DFE</color>
+    <color name="bg_dark_primary">#D8F1FF</color>
+    <color name="bg_dark_white">#EAEAEA</color>
+    <color name="bg_dark_black">#252525</color>
+    <color name="stroke_color">#CECECE</color>
+    <color name="text_dark_black">#545454</color>
+    <color name="text_dark">#929292</color>
+    <color name="icon_bg">#4A4A4A</color>
+    <color name="view_bg">#CECECE</color>
+    <color name="yellow">#FFE500</color>
+    <color name="gray">#D3D3D3</color>
+
+    background: #F6FAFD;
+
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="country_language_width">120dp</dimen>
+    <dimen name="country_language_height">45dp</dimen>
+    <dimen name="display_view_height">300dp</dimen>
+    <dimen name="margin_small">15dp</dimen>
+    <dimen name="margin_medium">25dp</dimen>
+    <dimen name="margin_large">10dp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="icon_size">25dp</dimen>
+    <dimen name="recycler_view_width">150dp</dimen>
+    <dimen name="recycler_view_height">370dp</dimen>
+    <dimen name="padding_top_small">10dp</dimen>
+    <dimen name="margin_top_medium">50dp</dimen>
+    <dimen name="width_edit_icon">26dp</dimen>
+    <dimen name="height_edit_icon">26dp</dimen>
+
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="medium_padding">16dp</dimen>
+    <dimen name="large_padding">24dp</dimen>
+
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="layout_margin">148dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="large_margin">24dp</dimen>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string translatable="false" name="app_name">Sprache zu Text</string>
+    <string name="hello_blank_fragment" translatable="false">Hallo leerer Fragment</string>
+    <string name="dictionary_base_url" translatable="false">https://api.dictionaryapi.dev/api/v2/</string>
+    <string name="pressMic">Tippen Sie auf das Mikrophon, um zu sprechen?</string>
+    <string name="english" translatable="false">Englisch</string>
+    <string name="ocr">OCR</string>
+    <string name="ocr_text">OCR</string>
+    <string name="languages">Sprachen</string>
+    <string name="favourite">Favoriten</string>
+    <string name="history">Verlauf</string>
+    <string name="rate_us">Bewerten Sie uns</string>
+    <string name="share">Teilen</string>
+    <string name="exit">Beenden</string>
+    <string name="speech_to_text">Sprache zu Text</string>
+    <string name="stt">STT</string>
+    <string name="translate">Übersetzen</string>
+    <string name="dictionary">Wörterbuch</string>
+    <string name="type_your_text_in_here">Geben Sie hier Ihren Text ein...</string>
+    <string name="enter_text_here">Geben Sie hier Text ein</string>
+    <string name="gallery">Galerie</string>
+    <string name="flash_on">Blitz EIN</string>
+    <string name="china">China</string>
+    <string name="search_with_camera">Mit der Kamera suchen</string>
+    <string name="images">Bilder</string>
+    <string name="text_scan">Zum Übersetzungsbildschirm senden</string>
+    <string name="search">Suche...</string>
+    <string name="view_all">Alle ansehen</string>
+    <string name="toolbar_title">Titel</string>
+    <string name="text_exit_app">Möchten Sie die App wirklich beenden?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="noun">Substantiv</string>
+    <string name="definition_text">Definition</string>
+    <string name="def_text_explain" translatable="false">„Hallo!“ oder ein gleichwertiger Gruß</string>
+    <string name="search_hint">Suche</string>
+    <string name="get_started">Loslegen</string>
+    <string name="draw_text">zeichnen</string>
+    <string name="draw_suggestion" translatable="false">abc</string>
+    <string name="urdu">Urdu</string>
+    <string name="input_text">Eingabentext</string>
+    <string name="translated_text">Übersetzter Text</string>
+    <string name="definition">Definition</string>
+    <string name="synonyms">Synonyme :</string>
+    <string name="antonyms">Antonyme :</string>
+    <string name="done">Fertig</string>
+    <string name="empty_favorite">Leere Favoriten</string>
+    <string name="no_favorite_history">Sie haben keine Favoriten im Verlauf</string>
+</resources>
