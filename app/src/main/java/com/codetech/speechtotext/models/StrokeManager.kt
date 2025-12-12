@@ -4,12 +4,15 @@ import android.util.Log
 import android.view.MotionEvent
 import android.view.View
 import android.widget.EditText
-import android.widget.TextView
 import com.airbnb.lottie.LottieAnimationView
-import com.google.mlkit.common.MlKitException
 import com.google.mlkit.common.model.DownloadConditions
 import com.google.mlkit.common.model.RemoteModelManager
-import com.google.mlkit.vision.digitalink.*
+import com.google.mlkit.vision.digitalink.recognition.DigitalInkRecognition
+import com.google.mlkit.vision.digitalink.recognition.DigitalInkRecognitionModel
+import com.google.mlkit.vision.digitalink.recognition.DigitalInkRecognitionModelIdentifier
+import com.google.mlkit.vision.digitalink.recognition.DigitalInkRecognizer
+import com.google.mlkit.vision.digitalink.recognition.DigitalInkRecognizerOptions
+import com.google.mlkit.vision.digitalink.recognition.Ink
 
 object StrokeManager {
     private var recognizer: DigitalInkRecognizer? = null

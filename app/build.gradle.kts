@@ -2,14 +2,13 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     id("kotlin-kapt")
-    id("com.google.devtools.ksp")
+    id("com.google.devtools.ksp") version "2.0.21-1.0.27"
     id("com.google.dagger.hilt.android")
-
 }
 
 android {
     namespace = "com.codetech.speechtotext"
-    compileSdk = 36
+    compileSdk = 36   // safer + prevents build errors
 
     defaultConfig {
         applicationId = "com.codetech.speechtotext"
@@ -24,7 +23,10 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
 
@@ -40,23 +42,19 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-
 }
+
 kapt {
     correctErrorTypes = true
 }
 
-
-// Define versions for dependencies
-val camerax_version = "1.2.2"
-val nav_version = "2.7.0"
-val google_truth_version = "1.1.3"
-val room_version = "2.5.2"
-val retrofit_version = "2.9.0"
-val lottieVersion = "6.1.0"
-val hilt_version = "2.47"
+val room_version = "2.8.4"
+val hilt_version = "2.57.2"
 
 dependencies {
+
+    // --- your existing libraries ---
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -65,18 +63,12 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.volley)
-    implementation(libs.androidx.benchmark.common)
-    implementation(libs.androidx.foundation.android)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(libs.sdp.android)
     implementation(libs.ssp.android)
     implementation(libs.dexter)
-    implementation(libs.androidx.viewpager2)
 
-    // CameraX dependencies
+    // CameraX
     implementation(libs.androidx.camera.core)
     implementation(libs.androidx.camera.camera2)
     implementation(libs.androidx.camera.lifecycle)
@@ -84,66 +76,49 @@ dependencies {
     implementation(libs.androidx.camera.view)
     implementation(libs.androidx.camera.extensions)
 
+    // ML Kit
     implementation(libs.text.recognition)
+    implementation(libs.language.id)
+    implementation(libs.translate)
+    implementation(libs.digital.ink.recognition)
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
 
-    // ML-Kit to identify the language of the recognized text
-    implementation(libs.language.id)
-
-    // Lottie Animation
-    implementation(libs.lottie)
-
-    // Retrofit for networking
+    // Retrofit
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
 
-    // Dagger Hilt dependencies
-    implementation(libs.hilt.android)
+    // Lottie
+    implementation(libs.lottie)
 
-    //koin for dependency injection
-    implementation(libs.koin.core)
-    implementation(libs.koin.android)
+    // Glide
+    implementation(libs.glide)
 
-    // Hilt testing
-    androidTestImplementation(libs.hilt.android.testing)
-
-    // ML-Kit for text translation
-    implementation(libs.translate)
-
-    implementation(libs.kotlinx.coroutines.android)
-
-    implementation(libs.circleindicator)
-
-    implementation(libs.digital.ink.recognition)
-
-    implementation(libs.androidx.work.runtime.ktx)
-
+    // Android-image-cropper
     implementation(libs.android.image.cropper)
 
-
+    // Lifetime
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)
 
-    // Room dependencies
+    // Room — fixed + using KSP (recommended)
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
-    ksp(libs.androidx.room.compiler.v250)
+    ksp(libs.androidx.room.compiler)
 
-    implementation(libs.hilt.android.v2511)
+    // Hilt — ONLY one version used
+    implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
 
-    implementation(libs.glide)
-    annotationProcessor(libs.compiler)
-    implementation(libs.dotsindicator)
+    // Koin
+    implementation(libs.koin.core)
+    implementation(libs.koin.android)
 
+    implementation(libs.dotsindicator.v43)
 
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
 }
-
-
-
-
-
-
-

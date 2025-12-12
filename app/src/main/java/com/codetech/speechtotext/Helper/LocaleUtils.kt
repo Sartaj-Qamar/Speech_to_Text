@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.res.Configuration
 import android.os.Build
 import java.util.Locale
+import androidx.core.content.edit
 
 object LocaleUtils {
     fun setLocale(locale: Locale) {
@@ -23,9 +24,9 @@ object LocaleUtils {
 
     fun saveLocale(context: Context, localeCode: String) {
         val sharedPreferences = context.getSharedPreferences("AppPreferences", Context.MODE_PRIVATE)
-        val editor = sharedPreferences.edit()
-        editor.putString("LANGUAGE", localeCode)
-        editor.apply()
+        sharedPreferences.edit {
+            putString("LANGUAGE", localeCode)
+        }
     }
 
     fun loadLocale(context: Context) {
